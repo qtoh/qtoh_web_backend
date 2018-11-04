@@ -5,7 +5,7 @@
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start src/loader.js --name qtoh-backend"
+    "production": "pm2 start src/loader.js --name qtoh-web-backend"
   },
   "keywords": [],
   "author": "",

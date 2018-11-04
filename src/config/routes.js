@@ -14,6 +14,9 @@ module.exports = function (server) {
     //const BillingCycle = require('../api/billingCycle/billingCycleService')
     //BillingCycle.register(protectedApi, '/billingCycles')
 
+    const Fleet = require('../api/fleet/fleetService')
+    Fleet.register(protectedApi, '/fleet')
+
     /*
      * Rotas abertas
      */
